@@ -1,24 +1,29 @@
+html, body { 
+  min-height: 100vh;
+  overflow: auto;
+}
+
 body {
-	margin:  0;
-	padding:  0;
-	font-family: Arial;
+  margin:  0;
+  padding:  0;
+  font-family: Arial;
 }
 
 header {
-	background: lightblue;
-	width: 100%;
+  background: lightblue;
+  width: 100%;
 }
 
 h1 {
-	padding: 15px 0;
-	margin: 0px;
-	top: 50%;
+  padding: 15px 0;
+  margin: 0px;
+  top: 50%;
 }
 
 #Newspaper {
-	margin: 0;
-	text-align: center;
-	vertical-align: middle;
+  margin: 0;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .container {
@@ -30,6 +35,7 @@ h1 {
 .content {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .sidebar {
@@ -47,17 +53,17 @@ h1 {
 }
 
 .sidebar p, .sidebar h3 {
-	width: auto;
-	color: white;
-	text-align: start;
+  width: auto;
+  color: white;
+  text-align: start;
 }
 
 
 
 img {
-	width: auto;
-	overflow-y: hidden;
-	height: 300px;
+  width: auto;
+  overflow-y: hidden;
+  height: 300px;
 }
 
 
