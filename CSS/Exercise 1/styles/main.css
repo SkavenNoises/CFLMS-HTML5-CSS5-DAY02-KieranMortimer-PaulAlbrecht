@@ -2,7 +2,11 @@ img {
 	width: 100px;
 	height: 100px;
 }
+#first p {
+	font-size: 20px;
+}
 
+/* 
 h1 {
 	display: none;
 }
@@ -10,10 +14,12 @@ h1 {
 #second > div {
 	display: none;
 }
+*/
 
 div { 
 	border-bottom: 1px solid black;
-}
+/* 
 #third p {
 	display: none;
 }
+/*
