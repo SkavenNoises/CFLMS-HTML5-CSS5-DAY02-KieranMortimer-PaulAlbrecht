@@ -1,0 +1,29 @@
+body {
+	margin:  0;
+
+}
+
+header {
+	background: lightblue;
+	width: 100%;
+	height: 70px;
+
+}
+
+#Newspaper {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#about {
+	
+}
+
+#news {
+	
+}
+
+span {
+	display: inline-block;
+	margin-left: 10px;
+}
