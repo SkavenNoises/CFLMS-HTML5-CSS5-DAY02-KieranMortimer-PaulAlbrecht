@@ -10,3 +10,10 @@ h1 {
 #second > div {
 	display: none;
 }
+
+div { 
+	border-bottom: 1px solid black;
+}
+#third p {
+	display: none;
+}
